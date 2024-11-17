@@ -1,0 +1,361 @@
+/* Basic Styles for Homepage */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.hero-content {
+    text-align: center;
+    color: white;
+    padding: 100px 0;
+}
+
+.cta-button {
+    background-color: #f60;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+body {
+   /* background-image: url('/images/admin-img.jpg');*/
+    background-size: cover;
+    background-position: center;
+    height: 100vh;  /* Ensure the body fills the viewport height */
+}
+
+
+/* Table Styling */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table th, table td {
+    padding: 15px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+table th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+
+table td {
+    background-color: #ffffff;
+}
+
+/* Add some spacing to the page and make buttons stand out */
+.container {
+    padding: 20px;
+}
+
+/* Button Styling */
+.btn {
+    font-size: 14px;
+    padding: 8px 15px;
+    border-radius: 4px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-info {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-lg {
+    padding: 12px 20px;
+    font-size: 16px;
+}
+
+.btn-sm {
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+/* Status Badges */
+.badge {
+    font-size: 14px;
+    padding: 6px 12px;
+    border-radius: 12px;
+}
+
+.badge-success {
+    background-color: #28a745;
+}
+
+.badge-danger {
+    background-color: #dc3545;
+}
+
+/* Table Hover */
+table tbody tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+/* Icon Styling */
+.fas {
+    margin-right: 5px;
+}
+
+
+/* Form Styling */
+.form-group label {
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 4px;
+}
+
+.btn-lg {
+    padding: 12px 20px;
+    font-size: 16px;
+}
+
+/* Spacing Between Form Fields */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.container {
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+/* Alert Styling for Errors */
+.alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.alert-danger ul {
+    margin: 0;
+}
+
+.alert-danger li {
+    margin: 5px 0;
+}
+
+/* Buttons Styling */
+.btn {
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+/* Container and Form Styling */
+.container {
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+/* Form Control and Select */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    font-size: 14px;
+    padding: 12px;
+    border-radius: 4px;
+}
+
+/* Error Message Styling */
+.alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.alert-danger ul {
+    margin: 0;
+}
+
+.alert-danger li {
+    margin: 5px 0;
+}
+
+/* Buttons Styling */
+.btn {
+    font-size: 16px;
+    padding: 12px 20px;
+    border-radius: 4px;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+/* Text Muted for Instructions */
+.form-text {
+    font-size: 12px;
+    color: #6c757d;
+}
+
+
+.center-button {
+    display: flex;
+    justify-content: center;
+}
+
+ /* Sticky navigation */
+ nav.sticky-nav {
+    position: sticky;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.9); /* Light transparent background */
+    padding: 10px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+}
+
+nav.sticky-nav a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+nav.sticky-nav a:hover {
+    background-color: #ddd; /* Hover effect */
+}
+
+/* Hero Section */
+.hero-section {
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Full viewport height */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* About Section */
+#about {
+    background-size: cover;
+    background-position: center center;
+    padding: 60px 20px;
+   
+}
+
+/* Contact Section */
+#contact {
+    padding: 60px 20px;
+    background-color: #f4f4f4;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav.sticky-nav {
+        padding: 10px;
+    }
+    .hero-section {
+        background-position: top center;
+    }
+}
+
