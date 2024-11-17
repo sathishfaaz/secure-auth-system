@@ -69,7 +69,7 @@
     <!-- Contact Section -->
     <section id="contact" class="section">
     @auth
-    @if(auth()->user()->hasPermissionTo('view-cotactform'))
+    @if(auth()->user()->hasPermissionTo('view-contactform'))
         <h2>Contact Us</h2>
         <p>We'd love to hear from you! Whether you have a question or are interested in our services, feel free to reach out.</p>
         <form action="{{ route('contact.submit') }}" method="POST">

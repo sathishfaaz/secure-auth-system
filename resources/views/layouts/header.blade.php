@@ -29,7 +29,7 @@
         @endauth
        
         @auth
-        @if(auth()->user()->hasPermissionTo('view-cotactform') || auth()->user()->hasRole('User'))
+        @if(auth()->user()->hasPermissionTo('view-contactform') || auth()->user()->hasRole('User'))
             <li><a href="#contact">Contact Us</a></li>
         @endif
         @endauth
@@ -43,8 +43,10 @@
          <!-- Navigation for guests (not authenticated users) -->
          @guest
             <li><a href="{{ route('login') }}" class="cta-button">Login</a></li>
-        @endguest
 
+            <li><a href="{{ __('register') }}" class="cta-button">Register</a></li>
+        @endguest
+        
          <!-- Logout Link for Admin and User roles -->
 
          @auth

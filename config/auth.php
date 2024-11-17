@@ -40,7 +40,13 @@ return [
             'driver' => 'session',
             'provider' => 'users',
         ],
+        // Define a custom 'database' guard
+    'database' => [
+        'driver' => 'session',
+        'provider' => 'users',  // or another provider if needed
     ],
+    ],
+
 
     /*
     |--------------------------------------------------------------------------
@@ -65,10 +71,10 @@ return [
             'model' => App\Models\User::class,
         ],
 
-        // 'users' => [
-        //     'driver' => 'database',
-        //     'table' => 'users',
-        // ],
+       //'users' => [
+         //   'driver' => 'database',
+          //   'table' => 'users',
+         //],
     ],
 
     /*
