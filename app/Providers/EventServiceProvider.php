@@ -24,9 +24,7 @@ class EventServiceProvider extends ServiceProvider
         Login::class => [
             LogLoginAttempt::class,
         ],
-        'Illuminate\Auth\Events\Login' => [
-            'App\Listeners\LogLoginAttempt',
-        ],
+       
     ];
 
     /**

@@ -25,11 +25,12 @@ class ContactController extends Controller
         // Send the message to the admin (using an email, for example)
         try {
             // Send email to admin (you can create an Mailable to handle the email sending)
-            Mail::to('sathishfaaz@gmail.com')->send(new ContactFormMail($validated));
+            Mail::to($request->email)->send(new ContactFormMail($validated));
 
             // Redirect with success message
             return redirect()->back()->with('success', 'Your message has been sent successfully!');
         } catch (\Exception $e) {
+            echo $e->getMessage();exit;
             // In case of error (e.g., email could not be sent)
             return redirect()->back()->with('error', 'There was an issue sending your message. Please try again.');
         }
